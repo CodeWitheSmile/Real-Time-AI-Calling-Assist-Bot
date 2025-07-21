@@ -1,0 +1,144 @@
+[
+  {
+    "intent": "order_tracking",
+    "examples": [
+      "Where is my order?",
+      "Track my parcel",
+      "Can you find my delivery?",
+      "I want to know my order status",
+      "Is my package shipped?",
+      "Give me update on my order",
+      "Has my order arrived yet?",
+      "What's the ETA on my delivery?"
+    ]
+  },
+  {
+    "intent": "password_reset",
+    "examples": [
+      "I forgot my password",
+      "Help me reset my password",
+      "Can't login to my account",
+      "Reset my login credentials",
+      "I need to change my password",
+      "Lost my password",
+      "Please assist with password reset"
+    ]
+  },
+  {
+    "intent": "greeting",
+    "examples": [
+      "Hello",
+      "Hi there",
+      "Good morning",
+      "Hey",
+      "What's up?",
+      "How are you?",
+      "Yo",
+      "Hi bot!"
+    ]
+  },
+  {
+    "intent": "goodbye",
+    "examples": [
+      "Bye",
+      "See you later",
+      "Goodbye",
+      "Catch you later",
+      "I'm done here",
+      "Talk to you soon",
+      "Thanks, bye!",
+      "That's all, thanks"
+    ]
+  },
+  {
+    "intent": "product_inquiry",
+    "examples": [
+      "Tell me about this product",
+      "What does this item do?",
+      "Give me product details",
+      "Can you explain the features?",
+      "I want specs of this gadget",
+      "What’s the use of this?",
+      "Is this product waterproof?",
+      "How does this thing work?"
+    ]
+  },
+  {
+    "intent": "complaint",
+    "examples": [
+      "I'm not happy with the service",
+      "This is not what I ordered",
+      "I'd like to file a complaint",
+      "Your service is terrible",
+      "I have an issue with my order",
+      "Something went wrong with my purchase",
+      "This item arrived broken",
+      "Can I speak to a manager?"
+    ]
+  },
+  {
+    "intent": "refund_request",
+    "examples": [
+      "I want a refund",
+      "How can I get my money back?",
+      "Please process a return",
+      "I need to return this item",
+      "Can you refund me?",
+      "I wasn’t satisfied, want a refund",
+      "Return this product please"
+    ]
+  },
+  {
+    "intent": "delivery_delayed",
+    "examples": [
+      "Why is my order late?",
+      "My delivery is delayed",
+      "This is taking too long",
+      "When will my package come?",
+      "I expected it to arrive already",
+      "Where's my delayed order?",
+      "This order is late, any update?"
+    ]
+  },
+  {
+    "intent": "change_address",
+    "examples": [
+      "I need to change my delivery address",
+      "Update my address",
+      "My shipping location is different now",
+      "Change my address on file",
+      "Can I modify my delivery location?",
+      "I moved to a new place",
+      "Please update my current address"
+    ]
+  },
+  {
+  "intent": "cancel_order",
+  "examples": [
+    "I want to cancel my order",
+    "Cancel my recent order",
+    "Can I cancel my purchase?",
+    "Please cancel the item I just ordered",
+    "I need to stop my order",
+    "Cancel the order I placed yesterday",
+    "How do I cancel my order?",
+    "I changed my mind, cancel the order",
+    "Abort the order process",
+    "I don't want that product anymore, cancel it"
+  ]
+},
+
+  {
+    "intent": "thank_you",
+    "examples": [
+      "Thanks",
+      "Thank you so much",
+      "Appreciate your help",
+      "You're awesome!",
+      "Thanks a lot!",
+      "Grateful for the help",
+      "Cheers!",
+      "Thanks buddy"
+    ]
+  }
+]

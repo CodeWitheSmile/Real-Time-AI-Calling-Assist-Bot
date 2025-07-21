@@ -1,0 +1,14 @@
+[
+    {
+        "timestamp": "2025-07-19T16:05:37.496701",
+        "user_input": " .  .  .  .",
+        "intent": "goodbye",
+        "bot_response": "Goodbye!, have a nice day!"
+    },
+    {
+        "timestamp": "2025-07-19T16:06:10.270577",
+        "user_input": " I need to return this item.",
+        "intent": "refund_request",
+        "bot_response": "I'll initiate the refund process for you."
+    }
+]
