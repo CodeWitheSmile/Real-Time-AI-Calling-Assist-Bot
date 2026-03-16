@@ -1,22 +1,22 @@
-🤖 Real-Time Customer Support Agent Assist & Resolution Bot
+Real-Time Customer Support Agent Assist & Resolution Bot
 A voice-driven AI assistant built with Streamlit, SpeechRecognition, NLP, and TTS, designed to help resolve customer queries in real-time by detecting intent and responding naturally.
 
-🔍 Features
-🎙️ Voice Input: Record queries directly from a microphone.
+Features
+Voice Input: Record queries directly from a microphone.
 
-📝 Speech-to-Text: Transcribe audio using pre-trained ASR.
+Speech-to-Text: Transcribe audio using pre-trained ASR.
 
-🤖 Intent Detection: Match input against predefined intents using Sentence-BERT.
+Intent Detection: Match input against predefined intents using Sentence-BERT.
 
-💬 Dynamic Responses: Generate context-based replies.
+Dynamic Responses: Generate context-based replies.
 
-🗣️ Text-to-Speech: Convert replies to human-like speech.
+Text-to-Speech: Convert replies to human-like speech.
 
-📜 Conversation Logging: Store user interactions with timestamps.
+Conversation Logging: Store user interactions with timestamps.
 
-🧠 Multimodal Ready: Extendable to include audio classification or emotion detection.
+Multimodal Ready: Extendable to include audio classification or emotion detection.
 
-🧱 Project Structure
+Project Structure
 Project/
 ├── app1.py                     # Main Streamlit interface
 ├── asr.py                      # Audio recording and transcription
@@ -29,12 +29,12 @@ Project/
 ├── data/
 │   ├── intent_data.json        # Predefined intents and sample utterances
 │   └── conversations.jsonl     # Log of past user-bot conversations
-🛠️ Setup Instructions
-✅ 1. Clone the Repository
+Setup Instructions
+1. Clone the Repository
 git clone https://github.com/CodeWitheSmile/Real-Time-AI-Calling-Assist-Bot.git
 cd Real-Time-AI-Calling-Assist-Bot
 
-✅ 2. Create Virtual Environment & Install Dependencies
+2. Create Virtual Environment & Install Dependencies
 
 python -m venv venv
 source venv/bin/activate      # On Windows use: venv\Scripts\activate
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 If requirements.txt is not available, install manually:
 pip install streamlit sentence-transformers sounddevice scipy SpeechRecognition pyttsx3
 
-✅ 3. Prepare Data
+3. Prepare Data
 Ensure the following files are in place:
 
 data/intent_data.json: Contains your training examples and intents.
@@ -61,41 +61,38 @@ Sample intent_data.json format:
     "examples": ["bye", "see you", "good night"]
   }
 ]
-🚀 Running the App
+Running the App
 bash
 Copy
 Edit
 streamlit run app1.py
-💡 How It Works
-🔊 Record Audio:
+How It Works
+Record Audio:
 Captures a few seconds of voice input when "🎙️ Speak" button is clicked.
 
-📝 Transcription:
+Transcription:
 Audio is passed to a speech recognition model which returns a clean transcript.
 
-🧠 Intent Detection:
+Intent Detection:
 The transcript is encoded with Sentence-BERT and compared to pre-trained intent vectors.
 
-💬 Response:
+Response:
 A rule-based engine returns a contextually appropriate reply, and it's vocalized via TTS.
 
-📓 Log:
+Log:
 All conversations are appended to conversations.jsonl for analysis.
 
-📌 Example Interaction
-You: "I need help with my internet connection"
+Example Interaction
+User: "I need help with my internet connection"
 Bot: "Sure! Can you tell me if your router is showing any red lights?"
 
-🔧 Optional Extensions
-🔈 audio_classifier.py: Add emotion-aware responses.
+Optional Extensions
+audio_classifier.py: Add emotion-aware responses.
 
-📊 Build a dashboard to show metrics like intent frequency, satisfaction scores, etc.
+Build a dashboard to show metrics like intent frequency, satisfaction scores, etc.
+Multilingual support using translation APIs.
 
-🌐 Multilingual support using translation APIs.
 
-🧑‍💻 Authors
-Akshay Katoch
-
-Final Year AI/ML Project — Nebula.AI
+Fina
 
 Inspired by real-world voice-driven customer support systems.
